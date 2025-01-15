@@ -53,7 +53,7 @@ class BotSeeder extends Seeder
     private function installMessengerBot(Thread $thread, User $admin): void
     {
         $bot = Bot::factory()->for($thread)->owner($admin)->create([
-            'name' => 'Messenger Bot',
+            'name' => 'ربات پیام رسان',
         ]);
 
         foreach ($this->actions() as $action) {

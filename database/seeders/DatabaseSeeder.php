@@ -10,8 +10,8 @@ class DatabaseSeeder extends Seeder
      * The main admin account we create.
      */
     const Admin = [
-        'name' => 'John Doe',
-        'email' => 'admin@example.net',
+        'name' => 'مهدی عابدی',
+        'email' => 'abedi@mehdi.ir',
     ];
 
     /**

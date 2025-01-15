@@ -1,26 +1,26 @@
 @extends('layouts.app')
 @section('content')
-    <div class="pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card shadow-lg">
-                        <h3 class="card-header"><i class="fas fa-comments"></i> Messenger Demo</h3>
-                        <div class="card-body">
-                            <h4>
-                                Welcome to Tippin's Messenger demo! This laravel installation uses the
-                                <strong><span class="text-info">rtippin/messenger</span></strong> package to utilize
-                                a fully featured messenger system. You may sign up anytime or use a demo account
-                                listed below to test out the features provided. Private and group threads
-                                between multiple models, with real-time messaging, reactions, attachments, calling,
-                                chat bots, and more!
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="pt-5">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-12">--}}
+{{--                    <div class="card shadow-lg">--}}
+{{--                        <h3 class="card-header"><i class="fas fa-comments"></i> Messenger Demo</h3>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <h4>--}}
+{{--                                Welcome to Tippin's Messenger demo! This laravel installation uses the--}}
+{{--                                <strong><span class="text-info">rtippin/messenger</span></strong> package to utilize--}}
+{{--                                a fully featured messenger system. You may sign up anytime or use a demo account--}}
+{{--                                listed below to test out the features provided. Private and group threads--}}
+{{--                                between multiple models, with real-time messaging, reactions, attachments, calling,--}}
+{{--                                chat bots, and more!--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <div class="pt-5">
         <div class="container">
             <noscript>
